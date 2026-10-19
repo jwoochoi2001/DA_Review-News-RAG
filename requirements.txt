@@ -1,0 +1,35 @@
+# 전체 파트 공통 패키지 (Python 3.11+ 권장)
+# 버전은 분석에 사용한 환경 기록(01_review_analysis/data/raw/data_info.json 의 verified_versions 등)을 따랐고,
+# 기록이 없는 패키지는 최소 버전만 적었습니다.
+
+# 공통 분석·시각화
+pandas>=2.3
+numpy>=2.0
+matplotlib>=3.9
+plotly>=6.0
+openpyxl>=3.1
+pillow>=10
+
+# Part 1: 리뷰 토픽 모델링
+sentence-transformers>=5.0
+bertopic==0.17.4
+umap-learn==0.5.12
+hdbscan==0.8.44
+scikit-learn>=1.5
+
+# Part 1·3: Streamlit 앱
+streamlit>=1.40
+
+# Part 3: RAG (LangChain + 로컬 임베딩 + Chroma)
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+chromadb
+python-dotenv
+langchain-anthropic      # LLM_BACKEND=api 일 때만 필요
+faiss-cpu                # compare_vectordb.py 실험용
+
+# 화면 캡처(선택)
+playwright

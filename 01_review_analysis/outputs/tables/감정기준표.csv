@@ -1,0 +1,7 @@
+﻿감정,정의,예시 표현,극성 기호와의 관계
+긍정,해당 항목에 대해 만족·칭찬을 표현함,"""fits perfectly"", ""great for travel"", ""curls look great""",+
+부정,해당 항목에 대해 불만·문제를 표현함,"""did not fit"", ""keeps collapsing"", ""fell apart""",-
+중립,"사실 서술, 조건 안내, 미사용·계획·우려만 있어 좋고 나쁨을 평가하지 않음","""Be sure it fits your dryer"", ""I haven't used it yet"", ""as advertised"", ""It works.""",(해당 시 직접 지정)
+혼합,같은 항목에 장점과 단점이 함께 있음(리뷰 전체는 서로 다른 항목에서 긍정·부정이 섞여도 혼합),"""hard to put on, but once on it stays""",~
+판단 어려움,표현이 모호하거나 근거가 부족해 감정을 정하기 어려움,"""it made my dryer hotter"", 의미 불명확한 짧은 문장, 본문 없음",(해당 시 직접 지정)
+감정_전체(리뷰 단위),"항목별 감정을 합산: 긍정만=긍정, 부정만=부정, 긍정+부정 또는 혼합 포함=혼합, 중립만=중립, 모두 판단 어려움=판단 어려움. 기타 리뷰는 본문을 직접 읽고 판단.",,

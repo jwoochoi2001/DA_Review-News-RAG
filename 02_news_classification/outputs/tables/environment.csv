@@ -1,0 +1,7 @@
+﻿패키지,버전
+python,3.14.6
+scikit-learn,1.9.0
+pandas,2.3.3
+numpy,2.5.0
+matplotlib,3.11.0
+random_state,42

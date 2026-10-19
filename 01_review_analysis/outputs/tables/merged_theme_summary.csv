@@ -1,0 +1,10 @@
+﻿theme,name,clusters,n_sentences,n_reviews,avg_rating,keywords,rep
+A,호환성 불량,"0,3,14",720,411,1.94,"hair, dryer, fit, blow, did, does, drying, curly",This doesn't fit that well on my hair dryer. | it didn't fit very easily on my hair dryer.
+B,접힘·내구성 불량,"1,7,12",398,281,1.88,"collapses, use, using, collapsing, fell, easily, apart, broke",But it collapses while in use. | Hard to use because it collapses.
+C,기능 미흡·쓸모없음,"8,9",84,76,1.73,"work, didn, useless, doesn, good, like, worthless, hoped",Not usable. | it was useless
+D,반품·비추천·돈 낭비,"5,16,18",153,129,1.73,"return, money, recommend, waste, worth, item, buy, immediately",I returned it | I had to return it.
+E,실망·짜증 표현,"13,15,19",85,73,2.02,"disappointed, annoying, disappointing, frustrating, ugh, pain, sad, pretty",So disappointed. | Pretty disappointed.
+F,여행·보관 장점,"6,17",114,94,2.39,"travel, collapsible, great, bought, trip, space, nice, compact",it’s collapsible for travel | I love that it’s collapsible which is convenient for travel
+G,부분 만족·기대 미달,"4,11",160,126,2.27,"great, product, good, works, love, job, idea, wanted",Otherwise it works great. | It seems to be a good product
+H,일반 사용 경험,"2,10",265,168,2.09,"diffuser, silicone, used, dryer, ve, like, attachment, fingers",I've used this diffuser less than 20 times so far | I tried this diffuser on my home blowdryer
+X,미분류,-1,203,152,1.92,"product, don, use, waste, universal, stars, like, just",Was not a fan of this product. | it barely fit on the end.

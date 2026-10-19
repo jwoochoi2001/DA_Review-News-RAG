@@ -1,0 +1,14 @@
+﻿cluster,n_sentences,n_reviews,avg_rating,keywords,rep_sentences
+0,468,299,1.96,"hair, hair dryer, dryer, fit, hairdryer, fit hair, curly, dry",This doesn't fit that well on my hair dryer. | This did not attach well to my hair dryer | This doesn't fit my hair dryer.
+1,209,174,1.9,"dryer, blow, blow dryer, fit, dryers, fit blow, fit dryer, does","it would not fit my blow dryer | Didn't fit my blow dryer | that's likely because it doesn't fit on my blow dryer, properly"
+2,231,148,2.08,"diffuser, silicone, dryer, diffuser diffuser, like, use, attachment, collapsible",The diffuser works well | This collapsible diffuser was supposed to fit most blow dryers... | I tried this diffuser on my home blowdryer
+3,99,84,1.79,"return, returned, returning, item, immediately, returned immediately, missed, contact",I returned it | I returned it. | Returned it.
+4,362,263,1.93,"collapses, use, using, collapsing, fell, easily, apart, collapse",But it collapses while in use. | It collapses when you try to use it. | it collapses when you use it too.
+5,60,58,1.95,"disappointed, annoying, disappointing, disappointed disappointed, frustrating, annoying disappointed, pain, got",Pretty disappointed. | Very disappointing. | So disappointed.
+6,43,42,1.58,"didn, throw away, throw, work, away, did, didn help, garbage",it didn’t do it for me. | This didn't do for me- returned. | Really wasn’t for me.
+7,65,60,1.83,"doesn, fit, doesn fit, work, doesn work, didn, fit doesn, isn",it doesn’t fit. | It doesn't fit. | Doesn't fit properly.
+8,50,47,1.92,"used, use, fingers, times, hand, time, haven, used times",I even tried placing my hand around it when I use it | The first time I used it twice | then I tried to use it.
+9,154,117,2.31,"great, works, job, love, idea, wish, good, wanted love","Otherwise it works great. | It works well | eh, works ok."
+10,80,71,1.85,"product, bad, flimsy, really, sure, quality, sucks, good",It's not that great product. | Bad product. | it just frizzed it out bad.
+11,92,78,2.0,"product, bought, buy, trip, recommend, travel, buying, just","I bought this for travel. | I bought this for a business trip because it's collapsible | I bought this for a trip, didn't try it until we went on the trip"
+12,69,60,2.54,"travel, traveling, great, great traveling, collapsible, compact, storage, feature","I love that it’s collapsible which is convenient for travel | But still, it works as described and great for traveling. | It's perfect for traveling, but does collapse in use also"

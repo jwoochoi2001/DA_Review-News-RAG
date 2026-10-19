@@ -1,0 +1,14 @@
+# RAG FAQ 상담봇 실습 - 필요한 라이브러리
+# (참고용) 보통은 Claude Code가 CLAUDE.md 규칙에 따라 생성/설치합니다.
+# 직접 설치하려면:  pip install -r requirements.txt
+
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+sentence-transformers
+chromadb
+streamlit
+langchain-anthropic
+python-dotenv

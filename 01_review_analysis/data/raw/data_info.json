@@ -1,0 +1,83 @@
+{
+  "dataset": "Amazon Reviews 2023 · All_Beauty · one exact child ASIN",
+  "source_url": "https://amazon-reviews-2023.github.io/",
+  "download_page": "https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023",
+  "source_review_file": "raw/review_categories/All_Beauty.jsonl",
+  "source_metadata_file": "raw/meta_categories/meta_All_Beauty.jsonl",
+  "retrieved_date": "2026-10-07",
+  "selection": {
+    "asin": "B019GBG0IE",
+    "parent_asin": "B019GBG0IE",
+    "rows": 1328,
+    "rule": "All records with exact child asin B019GBG0IE. No sampling.",
+    "date_range_utc": [
+      "2016-01-18",
+      "2023-08-28"
+    ]
+  },
+  "product": "Collapsible Hair Diffuser by The Curly Co. with The Curly Co. Satisfaction Guarantee",
+  "csv_sha256": "1f54481183c182be2240f82bba8b6b269b0548da401153a21e87c31716f3a76b",
+  "source_sha256": "36ca7c48440a8247b2dca0174d095238422b506a8a80c114dca722b7715f1c94",
+  "columns": {
+    "review_id": "교육용 리뷰 번호. AB 뒤 숫자는 원본 파일의 행 번호.",
+    "asin": "해당 상품의 식별자. 모든 행 B019GBG0IE.",
+    "parent_asin": "관련 상품을 묶는 상위 상품 식별자. 이번에는 asin과 동일.",
+    "reviewer_id": "원본 작성자 ID를 SHA256으로 변환한 앞 16자리. 중복 점검용.",
+    "rating": "1~5점 별점",
+    "title": "리뷰 제목",
+    "text": "리뷰 본문 원문",
+    "timestamp": "리뷰 작성 시각, Unix 밀리초. 날짜는 UTC로 해석.",
+    "verified_purchase": "데이터 제공처의 구매 확인 표시",
+    "helpful_vote": "도움이 된다는 투표 수"
+  },
+  "limitations": [
+    "같은 ASIN에 연결된 원본 기록이며 실제 구입 이력이나 상품 결함을 독립 검증한 자료는 아님.",
+    "현재 Amazon의 전체 리뷰나 전체 구매자를 대표하지 않음.",
+    "원문은 영어 중심이며 다른 언어도 일부 있음. 다국어 임베딩을 사용.",
+    "상품 설명은 판매자가 제공한 정보이며 성능 검증 결과가 아님."
+  ],
+  "reference_settings": {
+    "random_state": 42,
+    "embedding_model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "device": "cpu",
+    "max_seq_length": 512,
+    "batch_size": 16,
+    "embedding_input": "cleaned review body only, no title/rating/product fields",
+    "normalize_embeddings": false,
+    "umap": {
+      "n_neighbors": 15,
+      "n_components": 5,
+      "min_dist": 0.0,
+      "metric": "cosine",
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hdbscan": {
+      "min_cluster_size": 20,
+      "min_samples": 5,
+      "metric": "euclidean",
+      "cluster_selection_method": "eom",
+      "prediction_data": true
+    },
+    "vectorizer": {
+      "stop_words": "english",
+      "ngram_range": [
+        1,
+        2
+      ]
+    },
+    "ctfidf": "BERTopic default ClassTfidfTransformer",
+    "representative_reviews": "cosine similarity to topic mean in original embedding space; descending similarity, review_id ascending on ties",
+    "scatter": "PCA n_components=2 on original embeddings; visualization only"
+  },
+  "verified_versions": {
+    "sentence-transformers": "6.1.0",
+    "bertopic": "0.17.4",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "torch": "2.14.1"
+  }
+}

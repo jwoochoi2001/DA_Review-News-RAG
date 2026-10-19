@@ -1,0 +1,10 @@
+{
+  "downloaded_on": "2026-10-10",
+  "sources": {
+    "news": "https://github.com/KLUE-benchmark/KLUE"
+  },
+  "files": {
+    "ynat_train.json": "e1ceadbcfc654bfbd241ac8170fe825ceeb6e7c0686f05181befeaef778d0031",
+    "ynat_dev.json": "608c7cab523aea7c3bab25c5dd4adba2458d4cae77322c523617ed3c4712433b"
+  }
+}

@@ -1,0 +1,2 @@
+# 분석 보고서 HTML은 생성물이라 GitHub 언어 통계에서 제외
+*.html linguist-generated=true

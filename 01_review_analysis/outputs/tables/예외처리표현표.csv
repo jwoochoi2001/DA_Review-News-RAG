@@ -1,0 +1,18 @@
+﻿규칙,이름,해당 표현,처리 방법,예시,해당 표현 포함 리뷰 수(참고),이번 통일로 수정한 건수
+E1,대상 없는 일반 평가,works great / works well / worked like a charm / does the job / gets the job done / performs well / works wonderfully,건조_결과 아님. 머리·컬·볼륨·건조·바람 등 대상이 문장에 있으면 건조_결과. 다른 항목이 없으면 기타.,"""works great on my daughter's hair""는 6+, ""works great""는 6번 없음",195,32
+E2,flimsy / floppy / wobbly,"flimsy, flimsy-ness, floppy, wobbles, wobbly","사용 중·형태 유지 문맥이면 접힘−, 드라이어에서 흔들림·빠짐이면 장착−, 부러짐·찢어짐 문맥이면 파손−. 대상이 불분명하면 기타+검토 필요.","""very flimsy"" 단독=기타+검토, ""kept collapsing, flimsy""=접힘−",34,0
+E3,quality / well made / cheaply made,"good quality, great quality, well made, made well, poorly made, cheap",단독이면 기타(+검토). sturdy·durable·held up·lasted·doesn't break는 파손+. 파손·접힘과 함께 쓰이면 해당 항목에 포함.,"""Good quality for price!""=기타+검토, ""doesn't break if dropped""=파손+",52,4
+E4,막연한 불만,didn't work / doesn't work / did nothing / not for me / not impressed / not crazy about,"기타+검토 필요. ""didn't dry my hair"", ""did nothing for my hair""처럼 머리가 대상이면 건조_결과−.","""THEY DIDN'T WORK FOR ME.""=기타+검토",31,0
+E5,접이식 기능 칭찬,"collapsible, collapses nicely, folds flat, collapses for storage",휴대성+(접힘 아님). 사용 중 접히는 문제만 접힘−.,"""I like that it's collapsible""=5+, ""it collapses while using""=2−",175,0
+E6,출장지·여행용 드라이어 호환,"hotel dryers, cruise, travel dryer, vacation",출장지(호텔 등) 드라이어에 안 맞음=장착−+휴대성−. 본인 여행용 드라이어에 안 맞음=장착−만. 일부만 맞음=장착~.,"""did not fit any of the hotel hair dryers""=1−, 5−",101,17
+E7,열 때문에 생기는 현상,"when hot/heats up it collapses, slips, melts, warps",현상 항목(접힘−·장착−·파손−)과 열−를 함께 표기. 녹기만 하면 열−만.,"""collapses when it heats up""=2−, 4−",16,0
+E8,lightweight 단독,"light, lightweight",휴대성은 여행·보관·공간·팩킹 문맥이 있을 때만. 단독은 휴대성 아님(다른 항목이 없으면 기타).,"""very lightweight and seems to work on any hairdryer""=휴대성 없음",45,1
+E9,미사용·기대·계획,"haven't used, can't wait, expect it to, will use for travel",항목 라벨 없음(기타). 사용 후 평가만 라벨.,"""Haven't taken it traveling yet""=기타",7,0
+E10,구매 경험·배송·가격·포장·구성품·냄새·색상,"arrived on time, packaging, price, seller, customer service, booklet missing, smell, color",기타(해당 내용만 있으면). 다른 항목이 있으면 그 항목만 라벨.,"""the packing is so poor. but the diffuser works perfectly""=기타",90,0
+E11,반어·비꼼,"A+ job making this ""universal""..., thanks a lot",표면 의미가 아니라 실제 의미로 판단(예: 장착−). 검토 필요에 표시.,"""A+ job making this universal diffuser attachable by the women it's meant for""=장착−",1,0
+E12,다른 제품과의 비교,"my old diffuser, the one that came with my dryer, plastic one",다른 제품의 단점 서술은 라벨 아님. 이 제품이 더 낫다는 비교는 해당 항목+(예: 안 빠짐=장착+).,"""my old diffuser kept falling off ... this fits and stays""=장착+",43,0
+E13,비영어,스페인어 등,번역해서 같은 기준으로 판단하고 검토 필요(비영어)로 표시.,"""Nunca me llegó este pedido""=기타(배송 미수령)",3,0
+E14,혼합 평가,"tight fit but fits, hard to put on but stays, barely fit",장착~ (극성 혼합),"""A little difficult to get on, but it's worth the struggle""=장착~",25,0
+E15,돌기·손가락 길이,"nubs/prongs/fingers too short, longer","lift·volume·curl 등 결과 언급이 있으면 건조_결과, 없으면 라벨 없음(해당 시 기타).","""the prongs are too short""=라벨 없음, ""too short to give lift and volume""=6−",20,4
+E16,크기·치수 표기 불일치,"it is 5 inches not 6.5, diameter smaller than described","실제 부착 문제를 말하면 장착, 그렇지 않으면 기타.","""described as 6.5 inches... measured 5 inches""=기타",3,0
+E17,별점-내용 불일치,"5점인데 ""worst diffuser"", 1점인데 칭찬",라벨은 본문 기준으로 붙이고 검토 필요(별점-내용 불일치)에 표시.,별점 입력 오류 가능성,0,0
